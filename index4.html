@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="file:///Users/apple/Downloads/jquery-3.6.0.min.js"></script> 
+        <link rel="stylesheet" href="style3.css">
+        <title>電卓</title>
+      </head>
+  <body>
+    <div class="contens">
+        <input text="abc"></br>
+        <section class="contens2">
+    <!--このonclick属性は要素をクリックした時に、どんな処理をするか設定している。-->
+    <!--appendを書くことによって７番のボタンを押した時にテキストに７が表示される-->
+            <button onclick="append('7')" >7</button>
+            <button onclick="append('8')" >8</button>
+            <button onclick="append('9')" >9</button>
+            <button onclick="append( '+' )" >+</button>
+        </section>
+        <section class="contens2">
+            <button onclick="append('4')" >4</button>
+            <button onclick="append('5')" >5</button>
+            <button onclick="append('6')" >6</button>
+            <button onclick="append( '-' )" >-</button>
+        </section>
+        <section class="contens2">
+            <button onclick="append('1')" >1</button>
+            <button onclick="append('2')" >2</button>
+            <button onclick="append('3')" >3</button>
+            <button onclick="append( '*' )" >*</button>
+        </section>
+        <section class="contens2">
+            <button onclick="append('0')" >0</button>
+            <button onclick="append('00')" >00</button>
+            <button onclick="append('.')" >.</button>
+            <button onclick="append('/')" >/</button>
+        </section>
+        <section class="contens2">
+            <!--('')を追加することによって文字を表示させないようにする-->
+            <button onclick="update( '' )" class="AC-equal">AC</button>
+            <button onclick="calc()" class="AC-equal">=</button>
+        </section>
+    </diV>
+ <!-- ここに記述していきましょう！ -->
+        <script src="main2.js"></script>
+      </body>
+    </html>
