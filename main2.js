@@ -12,13 +12,8 @@
         
         
         function calc(){
-            const v = document.querySelector('input').value
+            const v = document.querySelector('input').value}
         /**try~catch文を使うことで、予期していない異常によりエラー（例外）が発生する場面で意図的にエラーを回避できる。**/
-            try{
-                const f = new Function('return ' + v)
-                update( f().toString())
-            }
-            catch(error){
-                update(error)
-                }
-            }
+                
+        const f = new Function('return ' + v)
+        update( f().toString())
