@@ -1,0 +1,28 @@
+.contens {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.contens2{
+  justify-content: space-between;
+}
+
+button{
+       width: 70px;
+       height: 35px;
+       border-radius: 6px;
+       margin:2px -1px 0;
+  }
+        
+input{
+     background: black;
+     color:white;
+     width:282px;
+     height:40px;
+     font-size: 28px;
+     text-align: right;
+  }
+        
+.AC-equal{
+    width: 145px;
+}
